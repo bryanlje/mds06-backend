@@ -1,0 +1,38 @@
+# Computer vision
+opencv-contrib-python-headless==4.12.0.88
+Pillow==11.3.0
+pycocotools==2.0.10
+
+# Object detection and tracking
+ultralytics==8.3.224
+boxmot==15.0.9
+
+# Video processing
+ffmpeg-python==0.2.0
+fvcore==0.1.5.post20221221
+
+# Deep learning utilities
+numpy==2.0.2
+pandas==2.2.2
+scikit-learn>=1.6.1
+requests>=2.32.5
+
+# Web framework
+flask==3.0.0
+gunicorn==21.2.0
+werkzeug==3.0.1
+
+# Cloud services
+google-cloud-storage==2.13.0
+
+# Visualization (optional, can be removed for smaller image)
+plotly==5.18.0
+dash==2.14.2
+
+# Utilities
+tqdm>=4.67.1
+parse>=1.20.0
+python-dotenv==1.2.1
+
+# PyTorchVideo for SlowFast (if using)
+pytorchvideo==0.1.5
